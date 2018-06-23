@@ -21,6 +21,7 @@ h1,h2,h3,h4,h5,h6 {
 /*  Header box, site title and nav links */
 #header {
     margin: 0;
+    min-width: 350px;
     background: rgb(233, 233, 233);
     padding: 25px;
     
@@ -71,6 +72,7 @@ li a:hover {
 .container {
     
     max-width: 940px;
+    min-width: 350px;
     margin: 0 auto;
     padding:  30px;
 }
