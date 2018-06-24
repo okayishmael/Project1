@@ -3,7 +3,9 @@
 
 
 let name = prompt("What\'s your name?"); //declare var use prompt to display value in browser and collect user input
-let origin = prompt("Where are you from?"); // Same here
-let coder = confirm('Click "OK" if you are a coder?'); // declare var confirm to collect user input
+if (name != null){
+prompt("Hi "+name+" please enter your city.")}; // Same here
+let gender = prompt("Gender:")
+let coder = confirm('Click "OK" if you are a coder.'); // declare var confirm to collect user input
 console.log(); // Conprint
 
