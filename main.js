@@ -42,8 +42,9 @@ let instruction = prompt('Enter the correct verb. \n My name ____ Ishmael.'); //
 if(instruction === correctAnswer) {
     alert('YES, GREAT JOB! Ishmael is noun and goes with a singular verb, IS.\n You are done. Goodbye!'); //If yes, show user this
 } else{
-    alert('Sorry! We need a singular verb. Try another time. Goodbye!');//if no, show user this   
+    alert('Sorry! We need a singular verb. Try another time. Goodbye!');//if no, show user this     
 }
 };
+
 document.getElementById('miniquiz').innerHTML =  'Take the Quiz' ;
- 
+
