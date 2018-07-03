@@ -33,6 +33,8 @@ if(gender){
 if(coder){
     document.getElementById('coder').innerText = coder
 };
+
+
 // function that hold a mini quiz prompt
 let miniQuiz =function() {
 let correctAnswer = 'is'; // Correct/Expected Answer
@@ -46,5 +48,5 @@ if(instruction === correctAnswer) {
 }
 };
 
-document.getElementById('miniquiz').innerHTML =  'Take the Quiz' ;
+document.getElementById("quizbutton").addEventListener('click', miniQuiz); 
 
